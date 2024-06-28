@@ -1,0 +1,15 @@
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}
+
+.wrap {
+  width: 86px;
+  padding: 8px;
+  border: 2px solid gray;
+  border-radius: 4px;
+  text-align: center;
+}

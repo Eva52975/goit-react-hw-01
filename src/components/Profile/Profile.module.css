@@ -1,0 +1,48 @@
+.wrap {
+  width: 360px;
+  text-align: center;
+  border: 2px solid gray;
+  border-radius: 16px;
+
+  img {
+    width: 160px;
+
+    border-radius: 100px;
+    border: 3px solid rgb(59, 66, 59);
+    box-shadow: 0 0 7px #666;
+  }
+
+  ul {
+    padding: 0;
+  }
+}
+
+.name {
+  font-size: 24px;
+  margin: 16px;
+}
+
+.email {
+  color: rgb(112, 108, 108);
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.city {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.list {
+  border-top: 2px solid rgb(100, 143, 100);
+
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.item {
+  width: 64px;
+  display: flex;
+  flex-direction: column;
+}
